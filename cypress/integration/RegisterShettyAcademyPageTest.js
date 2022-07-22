@@ -16,7 +16,7 @@ describe('Shetty Academy Register Page Test', () => {
     })
 
     after(function(){
-        cy.log('After method')
+        cy.log('After method ')
     })
 
     it('Title Of Page, Headers Validation', () => {
