@@ -1,0 +1,15 @@
+{
+  "name": "cypress_shettyacademy",
+  "version": "1.0.0",
+  "description": "This project is for practice purpose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dzmitry Razhkou",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^10.3.1"
+  }
+}
