@@ -8,14 +8,11 @@ describe("Shetty Academy Register Page Test", () => {
     cy.fixture("registerPage.json").then((user) => {
       userDetails = user;
     });
-
-    cy.viewport("macbook-16");
-    cy.log("User navigates on the registration page");
-    cy.visit(Cypress.env("url"));
+    cy.launch();
   });
 
   after(function () {
-    cy.log("After method ");
+    cy.tearDown();
   });
 
   it("Title Of Page, Headers Validation", () => {
